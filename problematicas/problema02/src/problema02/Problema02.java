@@ -15,6 +15,18 @@ public class Problema02 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String acumulador = "";
+        int num2;
+        int num3;
+        int num4;
+        for (int num = 30; num >= 10; num--) {
+            num2 = num*2;
+            num3 = num*3;
+            num4 = num*4;
+            acumulador = String.format("%s%d-%d-%d-%d\n"
+                    ,acumulador,num,num2,num3,num4);
+            
+        }System.out.println(acumulador);
+
     }
-    
 }
